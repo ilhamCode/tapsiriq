@@ -1,0 +1,14 @@
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\bin\Debug\netcoreapp3.1\october-13.exe
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\bin\Debug\netcoreapp3.1\october-13.deps.json
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\bin\Debug\netcoreapp3.1\october-13.runtimeconfig.json
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\bin\Debug\netcoreapp3.1\october-13.runtimeconfig.dev.json
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\bin\Debug\netcoreapp3.1\october-13.dll
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\bin\Debug\netcoreapp3.1\october-13.pdb
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\obj\Debug\netcoreapp3.1\october-13.csproj.AssemblyReference.cache
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\obj\Debug\netcoreapp3.1\october-13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\obj\Debug\netcoreapp3.1\october-13.AssemblyInfoInputs.cache
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\obj\Debug\netcoreapp3.1\october-13.AssemblyInfo.cs
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\obj\Debug\netcoreapp3.1\october-13.csproj.CoreCompileInputs.cache
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\obj\Debug\netcoreapp3.1\october-13.dll
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\obj\Debug\netcoreapp3.1\october-13.pdb
+C:\Users\tu201806135\Desktop\homeworks\october-13\october-13\obj\Debug\netcoreapp3.1\october-13.genruntimeconfig.cache
