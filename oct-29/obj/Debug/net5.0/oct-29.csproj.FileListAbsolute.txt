@@ -1,0 +1,16 @@
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\bin\Debug\net5.0\oct-29.exe
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\bin\Debug\net5.0\oct-29.deps.json
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\bin\Debug\net5.0\oct-29.runtimeconfig.json
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\bin\Debug\net5.0\oct-29.runtimeconfig.dev.json
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\bin\Debug\net5.0\oct-29.dll
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\bin\Debug\net5.0\ref\oct-29.dll
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\bin\Debug\net5.0\oct-29.pdb
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\oct-29.csproj.AssemblyReference.cache
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\oct-29.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\oct-29.AssemblyInfoInputs.cache
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\oct-29.AssemblyInfo.cs
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\oct-29.csproj.CoreCompileInputs.cache
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\oct-29.dll
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\ref\oct-29.dll
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\oct-29.pdb
+C:\Users\Ilham\Desktop\tapsiriq\oct-29\obj\Debug\net5.0\oct-29.genruntimeconfig.cache
