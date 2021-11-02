@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "nov-1(Task 2)/1.0.0": {
+        "runtime": {
+          "nov-1(Task 2).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "nov-1(Task 2)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
