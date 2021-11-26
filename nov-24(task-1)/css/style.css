@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: rgb(189, 15, 15);
+    display: flex;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 55px;
+    color: white;
+}
+
+header {
+    background-image: url("../Assets/wave.jpg");
+    width: 100%;
+    margin: 0%;
+    height: 300px;
+}
+
+.title1 {
+    margin: 0;
+    position: relative;
+    top: 240px;
+    color: white;
+    margin-left: 90px;
+}
+
+.title2 {
+    color: yellowgreen;
+}
+
+.title3 {
+    color: yellowgreen;
+}
+
+main {
+    width: 80%;
+    align-items: center;
+    margin-left: 90px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'poppins';
+}
+
+h1 {
+    font-family: 'poppins';
+}
