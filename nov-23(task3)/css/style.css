@@ -1,0 +1,21 @@
+.p3 {
+    color: red;
+}
+
+.p1 {
+    color: green;
+}
+
+.p7 {
+    color: purple;
+}
+
+.p8 {
+    background-color: aqua;
+    color: red;
+}
+
+label {
+    color: yellow;
+    background-color: saddlebrown;
+}
