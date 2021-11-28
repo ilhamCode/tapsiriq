@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: 'Poppins';
+    background: rgb(241, 243, 246);
+    justify-content: center;
+}
+
+main {
+    position: relative;
+    left: 0;
+    border-width: 5px;
+}
+
+img {
+    position: relative;
+    left: 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.cercive {
+    width: 24%;
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.bsns {
+    color: turquoise;
+}
+
+h3 {
+    color: rgb(64, 139, 224);
+}
+
+.hintlabel {
+    color: rgb(201, 209, 211);
+}
+
+p {
+    color: rgb(201, 209, 211);
+}
