@@ -1,0 +1,159 @@
+﻿@model List<Portfolio>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">FREELANCER</h1>
+            <ul>
+                <li><a href="" class="headera">PORTFOLIO</a></li>
+                <li>
+                    <a href="" class="headera">ABOUT</a>
+                </li>
+                <li>
+                    <a href="" class="headera">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sec-1" class="xiyar">
+            <img src="./Assets/guy.svg" alt="" width="250px">
+            <h1>START BOOTSTRAP</h1>
+            <div class="nesecontainer">
+                <div class="line">
+
+                </div>
+                <i class="fas fa-star"></i>
+
+                <div class="line">
+
+                </div>
+            </div>
+            <p>Graphic Artist-Web Designer-Illustrator</p>
+        </section>
+        <section id="sec-2">
+            <h1>PORTFOLIO</h1>
+
+            <div class="nesecontainer">
+                <div class="line2">
+
+                </div>
+                <i class="fas fa-star"></i>
+
+                <div class="line2">
+
+                </div>
+            </div>
+
+            <div class="imgcontainer">
+
+                @foreach (var item in Model)
+                {
+                    <img src="~/Uploads/@item.Image" alt="" class="col-3 sekil">
+
+                }
+
+            </div>
+
+        </section>
+
+        <section id="sec-3">
+            <h1 id="header">ABOUT</h1>
+
+            <div class="aboutcontainer">
+                <div class="line">
+
+                </div>
+                <i class="fas fa-star"></i>
+
+                <div class="line">
+
+                </div>
+            </div>
+            <div class="textcontainer">
+                <div class="col-3">
+                    <p>
+                        Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+                    </p>
+                </div>
+                <div class="col-3 ">
+                    <p>
+                        You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+                    </p>
+                </div>
+            </div>
+            <button>
+                <i class="fas fa-download"></i>
+                <p>Free Download!</p>
+            </button>
+
+        </section>
+        <section id="sec-4">
+            <h1>CONTACT ME</h1>
+
+            <div class="nesecontainer">
+                <div class="line2">
+
+                </div>
+                <i class="fas fa-star"></i>
+
+                <div class="line2">
+
+                </div>
+            </div>
+
+
+            <form action="">
+                <input type="text" placeholder="Full name" class=" col-6 myinput">
+                <input type="email" placeholder="Email adress" class="col-6 myinput">
+                <input type="phone" placeholder="Phone number" class="col-6 myinput">
+                <textarea name="" id="" cols="30" rows="5" class=" col-6 messageinput" placeholder="Message"></textarea>
+                <button class="gilas">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="Location col-3">
+            <h1>LOCATION</h1>
+            <p>2215 John Daniel Drive</p>
+            <p>Clark, MO 65243</p>
+        </div>
+        <div class="Location col-3">
+            <h1>AROUND THE WEB</h1>
+            <div class="logobox">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-dribbble"></i>
+            </div>
+
+        </div>
+        <div class="Location col-3">
+            <h1>ABOUT FREELANCER</h1>
+            <p>Freelance is a free to use, MIT licensed</p>
+            <p>Bootstrap theme created by <a href="">Start Bootstrap</a></p>
+        </div>
+
+
+    </footer>
+
+    <div class="copyright">
+        <p>Copyright © Your Website 2021</p>
+    </div>
+</body>
+
+</html>

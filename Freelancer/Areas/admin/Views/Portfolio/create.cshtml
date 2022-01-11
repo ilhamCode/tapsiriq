@@ -1,0 +1,29 @@
+﻿@model Portfolio
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <form asp-area="admin" asp-controller="Portfolio" asp-action="create" method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="mb-3">
+                    <label class="form-label">Image</label>
+                    <input type="file" asp-for="@Model.ImageFile" class="form-control">
+                    <span class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Title</label>
+                    <input class="form-control" asp-for="@Model.Title">
+                    <span class="text-danger"></span>
+                </div>
+
+
+                <div class="mb-3">
+                    <label class="form-label">Content</label>
+                    <textarea asp-for="@Model.Description" class="form-control">Description</textarea>
+                    <span class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Create</button>
+            </form>
+        </div>
+    </div>
+</div>

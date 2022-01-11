@@ -1,0 +1,459 @@
+@import url("http://fonts.cdnfonts.com/css/poppins");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+Body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 100px;
+  background: #2c3e50;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav h1 {
+  font-family: 'poppins';
+  color: white;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  font-family: 'poppins';
+  margin: 0 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.xiyar {
+  background: #1abc9c;
+  width: 100%;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.xiyar h1 {
+  color: white;
+}
+
+.xiyar .nesecontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.xiyar .nesecontainer i {
+  color: white;
+  font-size: 35px;
+  margin: 0 15px;
+}
+
+.xiyar .nesecontainer .line {
+  width: 100px;
+  height: 5px;
+  background: white;
+  border-radius: 5px;
+}
+
+.xiyar p {
+  font-family: 'poppins';
+  color: white;
+  font-size: 20px;
+}
+
+.xiyar h1 {
+  font-size: 45px;
+  padding: 0;
+  margin: 10px;
+  font-family: 'poppins';
+}
+
+#sec-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sec-2 .nesecontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sec-2 .nesecontainer i {
+  font-size: 35px;
+  color: #2c3e50;
+}
+
+#sec-2 .line2 {
+  background: #2c3e50;
+  width: 100px;
+  height: 5px;
+  border-radius: 15px;
+}
+
+#sec-2 h1 {
+  font-family: 'poppins';
+  color: #2c3e50;
+  font-size: 35px;
+  margin: 15px;
+}
+
+.sekil {
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#sec-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #1abc9c;
+}
+
+#sec-3 h1 {
+  color: #ffffff;
+  font-size: 45px;
+  margin: 10px;
+  font-family: 'poppins';
+}
+
+#sec-3 .aboutcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sec-3 .aboutcontainer .line {
+  background: white;
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+#sec-3 .aboutcontainer i {
+  color: white;
+  font-size: 35px;
+}
+
+#sec-3 button {
+  background: #1abc9c;
+  border-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  border-width: 2px;
+  color: white;
+  font-size: 20px;
+  font-family: 'poppins';
+  padding: 0 20px;
+  margin: 80px;
+}
+
+#sec-3 button p {
+  margin-left: 15px;
+}
+
+.textcontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.textcontainer p {
+  color: white;
+  font-family: 'poppins';
+  font-size: 18px;
+  margin: 20px;
+}
+
+.imgcontainer {
+  width: 100%;
+  margin: 10px 50px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#sec-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#sec-4 h1 {
+  font-size: 40px;
+  font-family: 'poppins';
+  color: #2c3e50;
+  padding: 0;
+  margin: 10px;
+}
+
+#sec-4 .nesecontainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sec-4 .nesecontainer .line2 {
+  width: 100px;
+  height: 5px;
+  border-radius: 5px;
+  background: #2c3e50;
+}
+
+#sec-4 .nesecontainer i {
+  font-size: 40px;
+  color: #2c3e50;
+}
+
+#sec-4 form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#sec-4 form .myinput {
+  font-size: 20px;
+  height: 80px;
+  border-width: 0 0 1px 0;
+}
+
+#sec-4 form .messageinput {
+  font-size: 20px;
+  border-width: 0 0 1px 0;
+}
+
+#sec-4 form .gilas {
+  margin-top: 20px;
+  background: #1abc9c;
+  color: white;
+  font-family: 'poppins';
+  font-size: 20px;
+  width: 100px;
+  height: 70px;
+  margin-right: 46%;
+  border-color: white;
+  border-width: 0;
+  border-radius: 10px;
+}
+
+footer {
+  background: #2c3e50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .Location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer h1 {
+  font-size: 25px;
+}
+
+footer i {
+  font-size: 25px;
+  margin: 0 6px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer p a {
+  color: #1abc9c;
+}
+
+.copyright {
+  background: #1a252f;
+  color: white;
+  font-family: 'poppins';
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-5 {
+  width: 41.66%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33%;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33%;
+}
+
+.col-11 {
+  width: 91.66%;
+}
+
+.col-12 {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
